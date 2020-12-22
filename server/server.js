@@ -92,6 +92,6 @@ io.on("connection", (socket) => {
 
 const port = process.env.PORT || 4001;
 
-http.listen(port, () => {
+http.listen(port, "0.0.0.0", () => {
   console.log(`listening on port ${port}`);
 });
