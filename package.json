@@ -10,7 +10,9 @@
     "socket.io": "^2.3.0"
   },
   "scripts": {
+    "build": "cd client && yarn install && yarn run build",
+    "web": "node server/server.js",
     "start": "node server/server.js",
-    "hotloader": "cd client && npm start"
+    "hotloader": "cd client && yarn start"
   }
 }
