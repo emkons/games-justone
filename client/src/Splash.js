@@ -52,7 +52,6 @@ class Splash extends Component {
             </span>
             <button type="submit">go!</button>
           </form>
-          <p>by <a href="https://cjquines.com/">cjquines</a> · <a href="https://github.com/cjquines/just-one/">github</a></p>
         </div>
         <Rules shown={this.state.rules} toggleRules={this.toggleRules}/>
       </div>
